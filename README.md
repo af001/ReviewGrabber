@@ -20,8 +20,11 @@ help <get save exit batch>
 ```
 ### Example
 
+Terminal
+![alt text](https://github.com/af001/ReviewGrabber/blob/master/screenshots/terminal.png "Terminal View")
 
-
+Sqlite3
+![alt text](https://github.com/af001/ReviewGrabber/blob/master/screenshots/sqlite.png "Sqlite View")
 
 ### Liability Disclaimer
 
