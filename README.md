@@ -27,10 +27,27 @@ exit                                # Exit the console application. No save on e
 
 Terminal
 ![alt text](https://github.com/af001/ReviewGrabber/blob/master/screenshots/terminal.png "Terminal View")
-
 Sqlite3
 ![alt text](https://github.com/af001/ReviewGrabber/blob/master/screenshots/sqlite.png "Sqlite View")
 
+### Schema
+```sqlite
+sqlite> .schema wireless
+CREATE TABLE wireless (
+	author TEXT, 
+	author_profile TEXT, 
+	helpful BIGINT, 
+	image_available BOOLEAN, 
+	link TEXT, 
+	product_id TEXT, 
+	rating TEXT, 
+	review TEXT, 
+	review_date TEXT, 
+	review_id TEXT, 
+	title TEXT, 
+	CHECK (image_available IN (0, 1))
+);
+```
 ### Liability Disclaimer
 
 THIS SOFTWARE IS PROVIDED 'AS IS' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANT ABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
