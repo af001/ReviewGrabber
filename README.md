@@ -17,6 +17,10 @@ python reviewgrabber.py
 ```python
 help
 help <get save exit batch>
+get <url>                           # Get all reviews.
+batch manual <url>                  # Get all reviews from text file of URLs. Manually save.
+batch auto <url>                    # Get all reviews from text file of URLs. Auto save to default table.
+save <table_name>                   # Save all reviews, not batch auto, into a table named <table_name>
 ```
 ### Example
 
