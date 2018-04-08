@@ -4,7 +4,9 @@ Extract product reviews from Amazon and store the results in a SQL database for 
 ### Usage
 
 ``` python
-git clone 
+git clone https://github.com/af001/ReviewGrabber.git
+cd ReviewGrabber
+
 ```
 
 
