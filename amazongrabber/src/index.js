@@ -31,7 +31,7 @@ class App extends React.Component {
         <div>
         <h2>Amazon Review Viewer</h2>
         <p>Display any Amazon Review CSV file as a searchable, filterable, pretty react table.<br />
-           Developed by: Anton Foltz</p>
+           Developed by: Anton</p>
         <CSVReader
           cssClass="react-csv-input"
           label="Select CSV file containing reviews:"
