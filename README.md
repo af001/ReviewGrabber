@@ -53,6 +53,12 @@ cd amazongrabber
 yarn install                           # Only run on first download
 yarn start                             # Start the react app
 ```
+Output reviews from sqlalchemy to CSV
+![alt text](https://github.com/af001/ReviewGrabber/blob/master/screenshots/AG2.png "Terminal View")
+React App Viewer
+![alt text](https://github.com/af001/ReviewGrabber/blob/master/screenshots/ReactApp.png "ReactApp")
+Filter Reviews
+![alt text](https://github.com/af001/ReviewGrabber/blob/master/screenshots/ReactApp4.png "ReactApp")
 
 ### Liability Disclaimer
 
